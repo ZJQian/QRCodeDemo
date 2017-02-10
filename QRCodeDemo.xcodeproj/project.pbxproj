@@ -13,6 +13,11 @@
 		EE191AB51E4D9960008BB683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE191AB31E4D9960008BB683 /* Main.storyboard */; };
 		EE191AB71E4D9960008BB683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE191AB61E4D9960008BB683 /* Assets.xcassets */; };
 		EE191ABA1E4D9960008BB683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE191AB81E4D9960008BB683 /* LaunchScreen.storyboard */; };
+		EE191AC31E4D9B9E008BB683 /* ScanQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE191AC21E4D9B9E008BB683 /* ScanQRViewController.m */; };
+		EE2D1ECD1E4DB03D0038A7B7 /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2D1ECC1E4DB03D0038A7B7 /* ScanView.m */; };
+		EE2D1ECF1E4DB2AC0038A7B7 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2D1ECE1E4DB2AC0038A7B7 /* line.png */; };
+		EE2D1ED21E4DBF3A0038A7B7 /* MakeQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2D1ED11E4DBF3A0038A7B7 /* MakeQRCodeViewController.m */; };
+		EE2D1ED51E4DBF490038A7B7 /* MakeBarCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2D1ED41E4DBF490038A7B7 /* MakeBarCodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		EE191AB61E4D9960008BB683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE191AB91E4D9960008BB683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE191ABB1E4D9960008BB683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE191AC11E4D9B9E008BB683 /* ScanQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQRViewController.h; sourceTree = "<group>"; };
+		EE191AC21E4D9B9E008BB683 /* ScanQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQRViewController.m; sourceTree = "<group>"; };
+		EE2D1ECB1E4DB03D0038A7B7 /* ScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanView.h; sourceTree = "<group>"; };
+		EE2D1ECC1E4DB03D0038A7B7 /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
+		EE2D1ECE1E4DB2AC0038A7B7 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		EE2D1ED01E4DBF3A0038A7B7 /* MakeQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeQRCodeViewController.h; sourceTree = "<group>"; };
+		EE2D1ED11E4DBF3A0038A7B7 /* MakeQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeQRCodeViewController.m; sourceTree = "<group>"; };
+		EE2D1ED31E4DBF490038A7B7 /* MakeBarCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeBarCodeViewController.h; sourceTree = "<group>"; };
+		EE2D1ED41E4DBF490038A7B7 /* MakeBarCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeBarCodeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,15 @@
 				EE191AAE1E4D9960008BB683 /* AppDelegate.m */,
 				EE191AB01E4D9960008BB683 /* ViewController.h */,
 				EE191AB11E4D9960008BB683 /* ViewController.m */,
+				EE191AC11E4D9B9E008BB683 /* ScanQRViewController.h */,
+				EE191AC21E4D9B9E008BB683 /* ScanQRViewController.m */,
+				EE2D1ED01E4DBF3A0038A7B7 /* MakeQRCodeViewController.h */,
+				EE2D1ED11E4DBF3A0038A7B7 /* MakeQRCodeViewController.m */,
+				EE2D1ED31E4DBF490038A7B7 /* MakeBarCodeViewController.h */,
+				EE2D1ED41E4DBF490038A7B7 /* MakeBarCodeViewController.m */,
+				EE2D1ECB1E4DB03D0038A7B7 /* ScanView.h */,
+				EE2D1ECC1E4DB03D0038A7B7 /* ScanView.m */,
+				EE2D1ECE1E4DB2AC0038A7B7 /* line.png */,
 				EE191AB31E4D9960008BB683 /* Main.storyboard */,
 				EE191AB61E4D9960008BB683 /* Assets.xcassets */,
 				EE191AB81E4D9960008BB683 /* LaunchScreen.storyboard */,
@@ -110,6 +133,7 @@
 				TargetAttributes = {
 					EE191AA61E4D9960008BB683 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = BKM5U7B7K8;
 					};
 				};
 			};
@@ -136,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2D1ECF1E4DB2AC0038A7B7 /* line.png in Resources */,
 				EE191ABA1E4D9960008BB683 /* LaunchScreen.storyboard in Resources */,
 				EE191AB71E4D9960008BB683 /* Assets.xcassets in Resources */,
 				EE191AB51E4D9960008BB683 /* Main.storyboard in Resources */,
@@ -149,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2D1ED21E4DBF3A0038A7B7 /* MakeQRCodeViewController.m in Sources */,
+				EE191AC31E4D9B9E008BB683 /* ScanQRViewController.m in Sources */,
+				EE2D1ECD1E4DB03D0038A7B7 /* ScanView.m in Sources */,
 				EE191AB21E4D9960008BB683 /* ViewController.m in Sources */,
 				EE191AAF1E4D9960008BB683 /* AppDelegate.m in Sources */,
+				EE2D1ED51E4DBF490038A7B7 /* MakeBarCodeViewController.m in Sources */,
 				EE191AAC1E4D9960008BB683 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +292,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BKM5U7B7K8;
 				INFOPLIST_FILE = QRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -274,10 +308,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BKM5U7B7K8;
 				INFOPLIST_FILE = QRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.QRCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +339,7 @@
 				EE191AC01E4D9960008BB683 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
